@@ -6,7 +6,7 @@ JRuby hacks/compatibility code
 
 Add this line to your application's Gemfile:
 
-    gem 'lookout_jruby'
+    gem 'lookout-jruby'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install lookout_jruby
+    $ gem install lookout-jruby
 
 ## Usage
 

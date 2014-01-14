@@ -25,7 +25,7 @@ module Kernel
 
     # Only monkeypatch openssl after it's been loaded.
     if path == "openssl"
-      require "lookout_jruby/jruby-6970-openssl"
+      require "lookout/jruby/jruby-6970-openssl"
     end
     return rc
   end
