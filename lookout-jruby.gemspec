@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'lookout_jruby/version'
+require 'lookout/jruby/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "lookout_jruby"
-  spec.version       = LookoutJruby::VERSION
+  spec.name          = "lookout-jruby"
+  spec.version       = Lookout::Jruby::VERSION
   spec.authors       = ["Ian Smith"]
   spec.email         = ["ian.smith@lookout.com"]
   spec.summary       = %q{JRuby hacks}
