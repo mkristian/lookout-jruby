@@ -1,5 +1,5 @@
 module Lookout
   module Jruby
-    VERSION = "1.0.#{ENV['BUILD_NUMBER'] || 'dev'}"
+    VERSION = "1.1.#{ENV['BUILD_NUMBER'] || 'dev'}"
   end
 end
