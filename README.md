@@ -1,6 +1,9 @@
 # LookoutJruby
 
-JRuby hacks/compatibility code
+JRuby hacks/compatibility code for JRUBY-6970
+(https://jira.codehaus.org/browse/JRUBY-6970, fix taken from the Logstash
+project) and for YAML/Configatron
+
 
 ## Installation
 
@@ -18,11 +21,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'lookout/jruby' in your project
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/lookout_jruby/fork )
+1. Fork it ( http://github.com/lookout/lookout-jruby/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
