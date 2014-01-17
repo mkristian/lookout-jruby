@@ -1,4 +1,4 @@
-# LookoutJruby
+# Lookout::Jruby
 
 JRuby hacks/compatibility code for JRUBY-6970
 (https://jira.codehaus.org/browse/JRUBY-6970, fix taken from the Logstash
