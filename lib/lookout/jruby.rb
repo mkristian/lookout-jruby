@@ -5,6 +5,8 @@ module Lookout
     if RUBY_PLATFORM == 'java'
       require 'java'
 
+      require 'jruby-openssl'
+
       # JRuby cert/path hack
       require 'lookout/jruby/jruby-6970'
       require 'lookout/jruby/jruby-6970-openssl'
