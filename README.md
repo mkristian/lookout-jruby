@@ -1,12 +1,6 @@
 # Lookout::Jruby
 
-JRuby hacks/compatibility code for JRUBY-6970
-(https://jira.codehaus.org/browse/JRUBY-6970, fix taken from the Logstash
-project) and for YAML/Configatron
-
-Note: with JRuby 1.7+, openssl is baked in, and so this gem does not depend on
-jruby-openssl.  However, if you're using an older JRuby, you will need to have
-jruby-openssl in your gemfile.
+JRuby hacks/compatibility code for YAML/Configatron
 
 ## Installation
 
