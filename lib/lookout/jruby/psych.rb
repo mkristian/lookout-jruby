@@ -2,6 +2,7 @@
 # with our version of Configatron under JRuby
 module Psych
   module Yecht
-    MergeKey = nil
+    class MergeKey
+    end
   end
 end
