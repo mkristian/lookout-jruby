@@ -1,6 +1,6 @@
 # Lookout::Jruby
 
-JRuby hacks/compatibility code for YAML/Configatron
+JRuby hacks/compatibility code for YAML/Configatron and loading yaml files via uri:classloader:/ pseudo-protocol.
 
 ## Installation
 
