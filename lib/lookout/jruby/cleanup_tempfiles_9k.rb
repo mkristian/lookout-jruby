@@ -11,6 +11,9 @@ module Lookout
         false
       rescue Errno::EPERM # The process exists, but you dont have permission to send the signal to it.
         true
+      rescue NotImplementedError
+        # this can happen when native could not be loaded
+        false
       end
       private :process_exists?
 
